@@ -1,0 +1,6 @@
+A = set(map(int, input("Enter elements of set A separated by spaces: ").split()))
+B = set(map(int, input("Enter elements of set B separated by spaces: ").split()))
+print("Union:", A | B)
+print("Intersection:", A & B)
+print("Difference (A-B):", A - B)
+print("Symmetric Difference:", A ^ B)
